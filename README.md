@@ -42,4 +42,69 @@ Here’s what Campus HelpBot will eventually handle:
 ---
 
 ## Project Structure
+campus-helpbot/
+│
+├── backend/ # GPT logic, API routes, bot connectors
+├── frontend/ # Optional web UI or Streamlit interface
+├── prompts/ # OpenAI prompt templates
+├── data/ # Sample PDFs, note images, mock handbooks
+├── labs/ # Step-by-step learning modules
+├── azure-setup/ # ARM templates or Bicep for Azure resources
+└── README.md
+
+
+---
+
+## Getting Started
+
+1. **Clone this repo**  
+git clone https://github.com/cloudgpt-labs/campus-helpbot
+cd campus-helpbot
+
+2. **Set up your Azure environment**  
+- [ ] Create a free Azure account  
+- [ ] Enable Azure OpenAI, Form Recognizer, Cognitive Search, etc.  
+- [ ] Follow the `/labs/` folder for step-by-step instructions
+
+3. **Run the app locally or on Azure**  
+Choose between:
+- Local dev (Python/Node + Streamlit)
+- Azure Web App deployment
+
+---
+
+## Who This Is For
+
+This project is perfect for:
+
+- Students learning AI hands-on
+- Azure AI-102 certification candidates
+- Developers who prefer project-based learning
+- Instructors building classroom demos
+
+---
+
+## About This Project
+
+This repo supports the Udemy course:  
+**_“Build a Campus AI Assistant with Azure – Project-Based Learning”_**
+
+We’ll go beyond tutorials and actually build something useful together.
+
+📚 [Course link coming soon]
+
+---
+
+## Credits & Contact
+
+Built with ❤️ by [cloudgpt-labs](https://github.com/cloudgpt-labs)  
+Have suggestions? [Open an issue](https://github.com/cloudgpt-labs/campus-helpbot/issues)
+
+---
+
+## 📝 License
+
+© 2025 cloudgpt-labs. This content is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/).  
+You may use this project for **personal learning only**.  
+Commercial use is **not permitted**.
 
