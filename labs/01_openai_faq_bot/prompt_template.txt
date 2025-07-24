@@ -1,0 +1,6 @@
+Use the following campus FAQ information to answer the student's question.
+
+{context}
+
+Now, based on this, answer the question:
+"{question}"
